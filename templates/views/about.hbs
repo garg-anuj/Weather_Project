@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {{>headerLinks}}
+
+    <title>Wheather</title>
+</head>
+<body>
+    <!-- <h1>Welcome to static index page</h1>
+    <button class="btn btn-danger"></button> -->
+    {{>navbar}}     
+     <!--mainn header  -->
+     <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+              <div class="row">
+                <!-- left side div -->
+                <div class="col-md-6 col-12 main_header_right align-items-center">
+                    <!-- <h1>For IMG</h1> -->
+                   <figure>
+                    <img  src="images/about.png" alt="Anuj" class="img-fluid" title="wheather technical">
+
+                   </figure>
+                </div>
+                <div class="col-md-6 col-12 main_header_left">
+                    <p>Welcome to weather app</p>
+                    <h1> I am A <span class="text_clr">Mernn stack Developer </span>and FreeLancer</h1>
+                    <a href="/weather"><button>About Me</button></a>
+                </div>
+
+                <!-- right side div -->
+ 
+              </div>
+
+            </div>
+        </div>        
+    </div>    
+    <!-- footer code -->
+    {{>footer}}
+</body>
+</html>
