@@ -38,5 +38,5 @@ app.get("*", (req,res)=>{
 
 
 app.listen(port,()=>{
-    console.log(`listen project port no ${port}`);
+    console.log(`listen project port no http://localhost:${port}`);
 })
